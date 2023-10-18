@@ -1,0 +1,50 @@
+:root{
+    font-size: 17px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+    "he he"
+    "as na"
+    "as ma"
+    "as fo"
+    ;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 50px 50px 1fr 50px;
+    
+}
+
+body>header{
+    grid-area: he;
+    background-color: blue;
+}
+body>aside{
+    grid-area:as;
+    background-color: yellow;
+}
+body>nav{
+    grid-area: na;
+    background-color: red;
+}
+body>main{
+    grid-area: ma;
+    background-color: pink;
+}
+body>footer{
+    grid-area: fo;
+    background-color: deepskyblue;
+}
+
+/* media query*/
+
+/*header*/
