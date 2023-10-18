@@ -35,7 +35,6 @@ body>aside{
 }
 body>nav{
     grid-area: na;
-    background-color: red;
 }
 body>main{
     grid-area: ma;
@@ -76,10 +75,10 @@ header>section{
     position: relative;
 }
 .search-section>button{
-    position: absolute;
     height:100%;
     background-color: transparent;
     border: none;
+
 }
 /* rivedere search button*/
 .login-section>button{
@@ -151,4 +150,48 @@ p{
 
 .sidebar-theme>img{
    height: 22px;
+}
+
+/*nav*/
+nav{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 15px; 
+    overflow: scroll;
+}
+nav>button{
+    width: 80px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    overflow: scroll;
+}
+
+nav>.img-1{
+    background-image: url(./img/categories/power-slap-white.svg);
+    background-repeat: no-repeat;
+    background-color: blue;
+    background-position: center center;
+}
+
+nav>.img-2{
+    background-image: url(./img/categories/sls.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav>.img-3{
+    background-image: url(./img/categories/nitro-cross.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+nav>.img-4{
+    background-image: url(./img/categories/ufc.svg);
+    background-repeat: no-repeat;
+    background-color: firebrick;
+    background-position: center center;
 }
