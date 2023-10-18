@@ -198,9 +198,9 @@ nav>.img-4{
 /* footer */
 footer{
     display: flex;
-    overflow: auto;
-   align-items: center;
+    align-items: baseline;
     justify-content: space-between;
+    padding-top: 20px;
 }
 p{
     font-size: 10px;
@@ -209,13 +209,14 @@ p{
 .footer-link a{
     text-decoration: none;
     color: black;
-    padding-left: 1rem;
     font-size: 13px;
+    padding-left: 2rem;
 }
 
 .condition, .last-section{
     display: flex;
     gap: 12px;
-    padding-right: 10px;
+    padding-right: 2rem;
+    
 }
 
