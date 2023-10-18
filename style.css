@@ -71,15 +71,11 @@ header>section{
     width: 18rem;
     border-color: 1px solid lightgray;
     padding: 0 1rem;
-    position: relative;
+    background-image: url(./img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
 }
-.search-section>button{
-    height:100%;
-    background-color: transparent;
-    border: none;
 
-}
-/* rivedere search button*/
 .login-section>button{
     height: 40px;
     width: 5.7rem;
