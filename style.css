@@ -21,7 +21,7 @@ body{
     "as fo"
     ;
     grid-template-columns: 100px 1fr;
-    grid-template-rows: 50px 50px 1fr 50px;
+    grid-template-rows: 50px 50px 1fr 60px;
     
 }
 
@@ -42,7 +42,6 @@ body>main{
 }
 body>footer{
     grid-area: fo;
-    background-color: deepskyblue;
 }
 
 /* media query*/
@@ -99,7 +98,7 @@ header>section{
 aside{
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    overflow: scroll;
     border-right: 1px solid lightgrey;
 }
 h1{
@@ -195,3 +194,28 @@ nav>.img-4{
     background-color: firebrick;
     background-position: center center;
 }
+
+/* footer */
+footer{
+    display: flex;
+    overflow: auto;
+   align-items: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 10px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+    font-size: 13px;
+}
+
+.condition, .last-section{
+    display: flex;
+    gap: 12px;
+    padding-right: 10px;
+}
+
