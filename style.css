@@ -90,6 +90,33 @@ header>section{
     border-color:limegreen;
 }
 
+
+/*main*/
+main{
+    background-color: whitesmoke; 
+    padding: 1rem;
+    
+}
+.video-row .container{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+.video-row>h1 button{
+    display: flex;
+    justify-content: baseline;
+}
+
+.video-row>h1{
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-start;
+}
+.video-row>button{
+    display: flex;
+}
+
+
 /*sidebar*/
 aside{
     display: flex;
