@@ -26,7 +26,6 @@ body{
 
 body>header{
     grid-area: he;
-    background-color: blue;
 }
 body>aside{
     grid-area:as;
@@ -47,4 +46,49 @@ body>footer{
 
 /* media query*/
 
+
 /*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+header>section{
+    display: flex;
+    align-items: center;
+}
+
+.logo-section, .login-section{
+    display: flex;
+    gap: 50px;
+}
+
+
+.search-section>input{
+    height: 40px;
+    border-radius: 15px;
+    width: 18rem;
+    border-color: 1px solid lightgray;
+    padding: 0 1rem;
+    position: relative;
+}
+.search-section>button{
+    position: absolute;
+    height:100%;
+    background-color: transparent;
+    border: none;
+}
+/* rivedere search button*/
+.login-section>button{
+    height: 40px;
+    width: 5.7rem;
+    border-radius: 30px;
+    font-size: medium;
+    background-color: transparent;
+}
+.login-section>#login{
+    border-color: transparent;
+}
+.login-section>#logout{
+    border-color:limegreen;
+}
