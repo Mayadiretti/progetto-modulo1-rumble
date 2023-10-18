@@ -38,7 +38,7 @@ body>nav{
 }
 body>main{
     grid-area: ma;
-    background-color: pink;
+    
 }
 body>footer{
     grid-area: fo;
